@@ -8,3 +8,4 @@ export { default as Projects } from "./projects/Projects";
 export { default as Contact } from "./contact/Contact";
 export { default as Footer } from "./footer/Footer";
 export { default as ScrollUp } from "./scrollup/ScrollUp";
+export { default as contextDarkMod } from "./context/contextDarkMod";

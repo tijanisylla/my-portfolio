@@ -11,6 +11,7 @@ import {
   Contact,
   Footer,
   ScrollUp,
+  contextDarkMod,
 } from "./components";
 
 const App: React.FC = () => {
@@ -27,24 +28,22 @@ const App: React.FC = () => {
   }, [IsdarkMode]);
 
   return (
-    <div className={`App ${IsdarkMode ? "dark-whole-app App" : ""}`}>
-      <Header
-        IsdarkMode={IsdarkMode}
-        setIsDarkMode={setIsDarkMode}
-        toggleIsDarkMode={toggleIsDarkMode}
-      />
-      <main className="main">
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
-      <ScrollUp />
-    </div>
+    <contextDarkMod.Provider value={{ IsdarkMode, toggleIsDarkMode }}>
+      <div className="App">
+        <Header />
+        <main className="main">
+          <Home />
+          <About />
+          <Skills />
+          <Services />
+          <Qualification />
+          <Projects />
+          <Contact />
+        </main>
+        <Footer />
+        <ScrollUp />
+      </div>
+    </contextDarkMod.Provider>
   );
 };
 

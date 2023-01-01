@@ -13,9 +13,13 @@ export interface TypeNavbar {
   icon: string;
 }
 
-export interface darkModeType {
+export interface TypeDarkMode {
   IsdarkMode: boolean;
   setIsDarkMode: (value: boolean) => void;
+  toggleIsDarkMode: () => void;
+}
+export interface contextDarkModeType {
+  IsdarkMode: boolean;
   toggleIsDarkMode: () => void;
 }
 
@@ -32,13 +36,4 @@ export interface TypeExperience {
   title: string;
   date: string;
   content: string;
-}
-
-export interface TypeLanguages {
-  title: string;
-  color: string;
-  width: string;
-  valuenow: number;
-  valuemin: number;
-  valuemax: number;
 }

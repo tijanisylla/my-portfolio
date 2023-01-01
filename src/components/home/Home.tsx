@@ -1,9 +1,15 @@
-import React, { useState, FC } from "react";
+import { FC, useContext, useEffect } from "react";
 import "./Home.css";
 import Social from "./Social";
 import Data from "./Data";
 import ScrollDowm from "./ScrollDowm";
+import contextDarkMod from "../context/contextDarkMod";
+
 const Home: FC = () => {
+  const { IsdarkMode } = useContext(contextDarkMod);
+
+  useEffect(() => {}, []);
+
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">

@@ -1,5 +1,4 @@
 import { FC } from "react";
-
 const Data: FC = () => {
   return (
     <div className="home__data">
@@ -56,7 +55,9 @@ const Data: FC = () => {
         </svg>
       </h1>
 
-      <h3 className="home__subtitle">Fullstack Developer</h3>
+      <h3 className="home__subtitle" style={{}}>
+        Fullstack Developer
+      </h3>
       <p className="home__description">
         I'm creative Fullstack Developer based in Chicago,IL and I'm very
         passionate and dedicated to my work.

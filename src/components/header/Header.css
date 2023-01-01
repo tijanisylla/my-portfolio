@@ -44,14 +44,15 @@
 }
 
 /* Ative link */
-.nav__item,
-:hover {
-  color: var(--title-color-dark);
+.nav__link:hover {
+  /* color: var(--title-color-dark); */
+  color: red;
   cursor: pointer;
 }
 /* React scroll active link */
 .nav__item .active {
-  color: var(--title-color-dark);
+  /* color: var(--title-color-dark); */
+  color: red;
   font-weight: var(--font-normal);
 }
 
@@ -118,6 +119,15 @@
     position: absolute;
     right: 50px;
   }
+  .switch-icon {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 1rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -131,70 +141,53 @@
 
 /* Dark mode */
 
-.switch input:checked {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.switch {
+.toggle-switch {
   position: relative;
   display: inline-block;
-  width: 55px;
-  height: 30px;
+  width: 50px;
+  height: 25px;
+  margin: 0 0.75rem;
 }
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+.toggle-switch input[type="checkbox"] {
+  display: none;
 }
-
-.slider {
+.toggle-switch .switch {
   position: absolute;
   cursor: pointer;
+  background-color: #b6b6b6;
+  border-radius: 25px;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  left: 0;
+  transition: background-color 0.2s ease;
 }
-
-.slider:before {
+.toggle-switch .switch::before {
   position: absolute;
   content: "";
-  height: 20px;
-  width: 20px;
-  left: 5px;
-  bottom: 5px;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-input:checked + .slider {
-  background-color: #19a2c1;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
+  left: 2px;
+  top: 2px;
+  width: 21px;
+  height: 21px;
+  background-color: var(--body-color);
   border-radius: 50%;
+  transition: transform 0.3s ease;
 }
-.switch-checkbox {
-  padding: 10px;
+.toggle-switch input[type="checkbox"]:checked + .switch::before {
+  transform: translateX(25px);
+  background-color: var(--body-color);
+}
+.toggle-switch input[type="checkbox"]:checked + .switch {
+  background-color: var(--title-color);
+}
+
+/* Icons */
+.nav-mode {
+  color: grey;
+}
+.light-mode {
+  color: #ffe87c;
+}
+.dark-mode {
+  color: #c96dfd;
 }
