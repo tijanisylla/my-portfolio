@@ -38,8 +38,8 @@ const ScrollDowm: React.FC = () => {
               strokeWidth: "20px",
             }}
           />
-        </svg>
-        <span className="home__scroll-name">Scroll Down</span>
+        </svg>{" "}
+        <span className="home__scroll-name scoll-d">Scroll Down</span>
         <i className="uil uil-arrow-down home__scroll-arrow"></i>
       </a>
     </div>

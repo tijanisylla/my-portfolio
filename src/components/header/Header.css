@@ -33,8 +33,8 @@
   font-size: var(--small-font-size);
   color: var(--title-color);
   font-weight: var(--font-meduim);
-  transition: 0.3s;
-  padding: 0.2rem;
+  transition: 0.8s;
+  padding: 0.3rem;
   cursor: pointer;
 }
 .nav__icon,
@@ -45,15 +45,17 @@
 
 /* Ative link */
 .nav__link:hover {
-  /* color: var(--title-color-dark); */
-  color: red;
+  background-color: var(--title-color);
+  color: var(--body-color);
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 /* React scroll active link */
 .nav__item .active {
-  /* color: var(--title-color-dark); */
-  color: red;
+  background-color: var(--title-color);
+  color: var(--body-color);
   font-weight: var(--font-normal);
+  border-radius: 0.5rem;
 }
 
 /* Change backgroud cheader */
@@ -179,15 +181,4 @@
 }
 .toggle-switch input[type="checkbox"]:checked + .switch {
   background-color: var(--title-color);
-}
-
-/* Icons */
-.nav-mode {
-  color: grey;
-}
-.light-mode {
-  color: #ffe87c;
-}
-.dark-mode {
-  color: #c96dfd;
 }

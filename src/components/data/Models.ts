@@ -3,8 +3,8 @@ export interface TypeMyData {
   id: number;
   title: string;
   link: string;
-  description: string;
   img_url: string;
+  gitHub: string;
 }
 export interface TypeNavbar {
   id: number;
@@ -32,8 +32,7 @@ export interface TypeLinks {
   link: string;
 }
 
-export interface TypeExperience {
-  title: string;
-  date: string;
-  content: string;
+export interface TypeMessageIsSent {
+  sent: boolean;
+  setSent: React.Dispatch<React.SetStateAction<boolean>>;
 }

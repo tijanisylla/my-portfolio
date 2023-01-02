@@ -4,11 +4,16 @@ import Social from "./Social";
 import Data from "./Data";
 import ScrollDowm from "./ScrollDowm";
 import contextDarkMod from "../context/contextDarkMod";
-
 const Home: FC = () => {
   const { IsdarkMode } = useContext(contextDarkMod);
-
-  useEffect(() => {}, []);
+  // Dark mode for the body
+  useEffect(() => {
+    if (IsdarkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [IsdarkMode]);
 
   return (
     <section className="home section" id="home">

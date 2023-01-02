@@ -47,6 +47,51 @@
   --z-modal: 1000;
 }
 
+/* ======== Light an Dark ======== */
+body.dark {
+  --hue: 210;
+  --sat: 20%;
+  --title-color: hsl(var(--hue), var(--sat), 90%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 100%);
+  --text-color: hsl(var(--hue), var(--sat), 70%);
+  --body-color: hsl(var(--hue), var(--sat), 10%);
+  --container-color: hsl(var(--hue), var(--sat), 20%);
+}
+
+/* Home Social Icons colors */
+body.dark .home__social {
+  color: hsl(var(--hue), var(--sat), 70%);
+}
+body.dark .home__social:hover {
+  color: hsl(var(--hue), var(--sat), 90%);
+}
+
+/* Dark mode input field */
+body.dark .contact__form-input {
+  background-color: hsl(var(--hue), var(--sat), 20%);
+  color: var(--title-color);
+}
+body.dark label {
+  color: var(--title-color);
+  background-color: hsl(var(--hue), var(--sat), 20%);
+  border-top-right-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+}
+body.dark ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--text-color);
+  opacity: 1; /* Firefox */
+}
+
+body.dark :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--text-color);
+}
+
+body.dark ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--text-color);
+}
 /* Responsive Typography */
 @media screen and (max-width: 993px) {
   :root {
@@ -110,6 +155,7 @@ img {
 /* ======== RESUSABLE CSS CLASSES======== */
 .section {
   padding: 6rem 0 2rem;
+  min-height: 100vh;
 }
 .section__title {
   font-size: var(--h1-font-size);

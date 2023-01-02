@@ -96,11 +96,15 @@
   font-weight: var(--font-meduim);
   margin-right: var(--mb-0-25);
   margin-left: 2px;
+  position: relative;
+  top: -10px;
 }
 
 .home__scroll-arrow {
   font-size: 1.25rem;
   color: var(--title-color);
+  position: relative;
+  top: -10px;
 }
 
 /* Large device */

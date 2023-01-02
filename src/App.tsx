@@ -5,7 +5,6 @@ import {
   Header,
   About,
   Skills,
-  Services,
   Qualification,
   Projects,
   Contact,
@@ -35,7 +34,6 @@ const App: React.FC = () => {
           <Home />
           <About />
           <Skills />
-          <Services />
           <Qualification />
           <Projects />
           <Contact />
