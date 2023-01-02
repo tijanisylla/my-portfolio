@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
                     <i className="uil uil-globe"></i>
                   </a>
                   <a
-                    href="https://facebook.com/"
+                    href="https://github.com/tijanisylla"
                     className="projects_social-icon"
                     target="_blank"
                     rel="noreferrer"

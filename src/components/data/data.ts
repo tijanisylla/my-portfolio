@@ -1,7 +1,7 @@
 //
 import { TypeMyData, TypeNavbar } from "./Models";
 import calculator from "../assets/calculator.png";
-import Snake from "../assets/snake.avif";
+import Snake from "../assets/Snake1.png";
 import Retro from "../assets/Draw.png";
 import Stranger from "../assets/Strange.png";
 import UserHub from "../assets/Userhub.png";

@@ -50,7 +50,7 @@
   margin-bottom: var(--mb-3);
 }
 .home__img {
-  background: url(../assets/me.jpeg);
+  background: url(../assets/syll3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -58,7 +58,7 @@
   height: 300px;
   order: 1;
   justify-self: center;
-  box-shadow: inset 0 0 0 9px rgba(255 255 255 / 30%);
+  box-shadow: var(--box-shadow-img);
   animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
@@ -128,7 +128,6 @@
   .home__img {
     width: 250px;
     height: 250px;
-    box-shadow: inset 0 0 0 8px rgba(255 255 255 / 30%);
   }
   .home__scroll {
     margin-left: 7.5rem;

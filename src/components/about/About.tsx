@@ -1,6 +1,6 @@
 import { FC } from "react";
 import "./About.css";
-import AboutImg from "../assets/syll3.png";
+import AboutImg from "../assets/pc2.png";
 import Info from "./Info";
 import CV from "../assets/Resume_Tijani_sylla.pdf";
 import { Fade, Slide } from "react-awesome-reveal";

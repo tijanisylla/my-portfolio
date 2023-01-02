@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://tijanisylla.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -28,9 +29,9 @@
     "dev:js": "node ./backend/app.js",
     "dev:ts": "nodemon ./backend/app.ts",
     "build": "react-scripts build",
-    "build:ts": "tsc -p .",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
