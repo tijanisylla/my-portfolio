@@ -26,7 +26,7 @@ const FrontEnd: React.FC = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">React</h3>
+              <h3 className="skills__name">React JS/TS</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
@@ -45,7 +45,7 @@ const FrontEnd: React.FC = () => {
             <i className="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Booststrap</h3>
+              <h3 className="skills__name">Bootstrap</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>

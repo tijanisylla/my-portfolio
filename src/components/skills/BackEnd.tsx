@@ -44,7 +44,7 @@ const BackEnd: React.FC = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">PosgresSQL</h3>
+              <h3 className="skills__name">PostgreSQL</h3>
               <span className="skills__level">Advancer</span>
             </div>
           </div>
@@ -60,7 +60,7 @@ const BackEnd: React.FC = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Firesase</h3>
+              <h3 className="skills__name">Firebase</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
