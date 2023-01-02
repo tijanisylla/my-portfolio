@@ -10,8 +10,12 @@
 
 ### Create Context API
 
-### EmailJs to receive emails through their API.
+### EmailJs to receive emails through their API
 
-### Dark-Mode functionality.
+### Dark-Mode functionality
 
-### Code easy to read.
+### Code easy to read
+
+### Push code to GitHub and deploy.
+
+### For deployment : I ran `npm run buid`.
