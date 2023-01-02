@@ -1,17 +1,17 @@
-# Getting Started with Create React App
-
 # Welcome to my Portfolio Site !!
 
-# Createe React App with Typescript
+### React App with Typescript
 
-# Pure CSS
+### Pure CSS
 
-# Metrial I cons
+### Metrial I cons
 
-# UseState Management
+### good hooks Management
 
-# Create Context API
+### Create Context API
 
-# EmailJs to receive emails through their API.
+### EmailJs to receive emails through their API.
 
-# Dark-Mode functionality.
+### Dark-Mode functionality.
+
+### Code easy to read.
