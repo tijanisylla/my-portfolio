@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.448c42db.css",
-    "main.js": "/my-portfolio/static/js/main.a75f60ee.js",
+    "main.css": "/my-portfolio/static/css/main.805709ac.css",
+    "main.js": "/my-portfolio/static/js/main.fe236266.js",
     "static/media/Task.png": "/my-portfolio/static/media/Task.16175505fc7b467207df.png",
     "static/media/Fitness.png": "/my-portfolio/static/media/Fitness.c6d5fffcc281e6ba3125.png",
     "static/media/pc2.png": "/my-portfolio/static/media/pc2.8b990229115b20ad1fbf.png",
@@ -15,11 +15,11 @@
     "static/media/Draw.png": "/my-portfolio/static/media/Draw.7236de5f9165a41e47e8.png",
     "static/media/Resume_Tijani_sylla.pdf": "/my-portfolio/static/media/Resume_Tijani_sylla.a307e107c076660428d7.pdf",
     "index.html": "/my-portfolio/index.html",
-    "main.448c42db.css.map": "/my-portfolio/static/css/main.448c42db.css.map",
-    "main.a75f60ee.js.map": "/my-portfolio/static/js/main.a75f60ee.js.map"
+    "main.805709ac.css.map": "/my-portfolio/static/css/main.805709ac.css.map",
+    "main.fe236266.js.map": "/my-portfolio/static/js/main.fe236266.js.map"
   },
   "entrypoints": [
-    "static/css/main.448c42db.css",
-    "static/js/main.a75f60ee.js"
+    "static/css/main.805709ac.css",
+    "static/js/main.fe236266.js"
   ]
 }
