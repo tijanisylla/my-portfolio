@@ -138,7 +138,7 @@ const Qualification: React.FC = () => {
               {/* GRP 5 */}
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualififaction__title">Custers Service</h3>
+                  <h3 className="qualififaction__title">Customer Service</h3>
                   <span className="qualification__subtitle">
                     Hammacher - Chicago,IL
                   </span>
