@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-scroll";
 const Footer: React.FC = () => {
   const yeareDate: Date = new Date();
   const thisYear: number = yeareDate.getFullYear();
@@ -10,19 +11,37 @@ const Footer: React.FC = () => {
 
         <ul className="footer__list">
           <li>
-            <a href="/#about" className="footer__link">
+            <Link
+              to="about"
+              className="footer__link"
+              spy={true}
+              smooth={true}
+              duration={50}
+            >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/#projects" className="footer__link">
+            <Link
+              to="projects"
+              className="footer__link"
+              spy={true}
+              smooth={true}
+              duration={50}
+            >
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/#services" className="footer__link">
-              Services
-            </a>
+            <Link
+              to="qualification"
+              className="footer__link"
+              spy={true}
+              smooth={true}
+              duration={50}
+            >
+              Qualifications
+            </Link>
           </li>
         </ul>
         <div className="footer__social">

@@ -1,9 +1,15 @@
 import React from "react";
-
+import { Link } from "react-scroll";
 const ScrollDowm: React.FC = () => {
   return (
     <div className="home__scroll">
-      <a href="/#about" className="home__scroll-button button-flex">
+      <Link
+        to="about"
+        spy={true}
+        smooth={true}
+        duration={50}
+        className="home__scroll-button button-flex"
+      >
         <svg
           width="32px"
           height="32px"
@@ -41,7 +47,7 @@ const ScrollDowm: React.FC = () => {
         </svg>{" "}
         <span className="home__scroll-name scoll-d">Scroll Down</span>
         <i className="uil uil-arrow-down home__scroll-arrow"></i>
-      </a>
+      </Link>
     </div>
   );
 };

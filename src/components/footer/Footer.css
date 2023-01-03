@@ -10,6 +10,7 @@
 .footer__title,
 .footer__link {
   color: var(--title-color);
+  cursor: pointer;
 }
 
 .footer__title {

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Scrollup.css";
-
+import { Link } from "react-scroll";
 const ScrollUp: React.FC = () => {
   // When the scroll is higher than 560 viewport height, add the show-scroll class to tag with the scroll-top class
   const scrollListener = (): void => {
@@ -14,9 +14,16 @@ const ScrollUp: React.FC = () => {
   }, []);
 
   return (
-    <a href="/#" className="scrollup">
+    <Link
+      to="home"
+      style={{ cursor: "pointer" }}
+      className="scrollup"
+      spy={true}
+      smooth={true}
+      duration={50}
+    >
       <i className="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+    </Link>
   );
 };
 
