@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Fade, Rotate } from "react-awesome-reveal";
-
+import { Link } from "react-scroll";
 const Data: FC = () => {
   return (
     <div className="home__data">
@@ -68,7 +68,7 @@ const Data: FC = () => {
         </p>
       </Fade>
       <Fade delay={600} triggerOnce>
-        <a href="/#contact" className="button button--flex">
+        <Link to="contact" className="button button--flex">
           Say Hello
           {"  "}
           <svg
@@ -88,7 +88,7 @@ const Data: FC = () => {
               fill="var(--container-color)"
             ></path>
           </svg>
-        </a>
+        </Link>
       </Fade>
     </div>
   );
