@@ -18,4 +18,8 @@
 
 ### Push code to GitHub and deploy.
 
-### For deployment : I ran `npm run buid`.
+### For deployment :
+
+```
+ "deploy": "npm run build && gh-pages -d build"
+```
