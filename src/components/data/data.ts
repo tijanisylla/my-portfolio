@@ -1,4 +1,4 @@
-//
+// This file contains the data for the projects and navbarbar items.
 import { TypeMyData, TypeNavbar } from "./Models";
 import calculator from "../assets/calculator.png";
 import Snake from "../assets/Snake1.png";
@@ -103,14 +103,12 @@ export const listNavBar: TypeNavbar[] = [
     icon: "uil uil-graduation-cap",
     href: "qualification",
   },
-
   {
     id: 5,
     item: "Projects",
     icon: "uil uil-briefcase-alt",
     href: "projects",
   },
-
   {
     id: 6,
     item: "Contact",

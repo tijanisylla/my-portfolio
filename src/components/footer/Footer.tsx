@@ -47,6 +47,8 @@ const Footer: React.FC = () => {
         <div className="footer__social">
           <a
             href="https://www.linkedin.com/in/tijanisylla"
+            target={"_blank"}
+            rel="noreferrer"
             className="footer__social-link"
           >
             <i className="bx bxl-linkedin"></i>
@@ -54,18 +56,24 @@ const Footer: React.FC = () => {
           <a
             href="https://github.com/tijanisylla"
             className="footer__social-link"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <i className="bx bxl-github"></i>
           </a>
           <a
             href="https://instagram.com/tijani__sylla/"
             className="footer__social-link"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <i className="bx bxl-instagram"></i>
           </a>
           <a
             href="https://twitter.com/Youngsylla2"
             className="footer__social-link"
+            target={"_blank"}
+            rel="noreferrer"
           >
             <i className="bx bxl-twitter"></i>
           </a>

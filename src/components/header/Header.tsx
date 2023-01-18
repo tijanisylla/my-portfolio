@@ -26,7 +26,7 @@ const Header: FC = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="/#" className="nav__logo">
+        <a href="/" className="nav__logo">
           Fullstack Developer
         </a>
         <div className={Toogle ? "nav__menu show-menu" : "nav__menu"}>
