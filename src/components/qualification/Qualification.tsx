@@ -160,7 +160,7 @@ const Qualification: React.FC = () => {
                   <span className="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 className="qualififaction__title">Flustack Developer</h3>
+                  <h3 className="qualififaction__title">Fullstack Developer</h3>
                   <span className="qualification__subtitle">Elmhurst - IL</span>
                   <div className="qualification__calender">
                     <i className="uil uil-calender"></i>

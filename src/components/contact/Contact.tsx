@@ -130,6 +130,7 @@ const Contact: React.FC = () => {
               <div className="contact__form-div">
                 <label className="contact__form-tag">Name</label>
                 <input
+                  required
                   type="text"
                   name="name"
                   className="contact__form-input"
@@ -139,6 +140,7 @@ const Contact: React.FC = () => {
               <div className="contact__form-div">
                 <label className="contact__form-tag">Email</label>
                 <input
+                  required
                   type="email"
                   name="email"
                   className="contact__form-input"
@@ -147,11 +149,13 @@ const Contact: React.FC = () => {
               </div>
               <div className="contact__form-div contact-form-area">
                 <label className="contact__form-tag">Project</label>
+
                 <textarea
                   className="contact__form-input "
                   name="project"
                   cols={30}
                   rows={10}
+                  required
                   placeholder="Write your project..."
                 ></textarea>
               </div>
