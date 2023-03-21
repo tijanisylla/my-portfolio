@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.805709ac.css",
-    "main.js": "/my-portfolio/static/js/main.988e9d91.js",
+    "main.css": "/my-portfolio/static/css/main.f6639643.css",
+    "main.js": "/my-portfolio/static/js/main.2065ca8d.js",
     "static/media/Task.png": "/my-portfolio/static/media/Task.16175505fc7b467207df.png",
     "static/media/Fitness.png": "/my-portfolio/static/media/Fitness.c6d5fffcc281e6ba3125.png",
     "static/media/pc2.png": "/my-portfolio/static/media/pc2.8b990229115b20ad1fbf.png",
@@ -13,13 +13,13 @@
     "static/media/calculator.png": "/my-portfolio/static/media/calculator.369041ff8e18ed6d8082.png",
     "static/media/Strange.png": "/my-portfolio/static/media/Strange.17bdd942d8e363035dbc.png",
     "static/media/Draw.png": "/my-portfolio/static/media/Draw.7236de5f9165a41e47e8.png",
-    "static/media/Resume_Tijani_sylla.pdf": "/my-portfolio/static/media/Resume_Tijani_sylla.a307e107c076660428d7.pdf",
+    "static/media/Resume_Tijani_sylla.pdf": "/my-portfolio/static/media/Resume_Tijani_sylla.7eab8395f64710bb5ba6.pdf",
     "index.html": "/my-portfolio/index.html",
-    "main.805709ac.css.map": "/my-portfolio/static/css/main.805709ac.css.map",
-    "main.988e9d91.js.map": "/my-portfolio/static/js/main.988e9d91.js.map"
+    "main.f6639643.css.map": "/my-portfolio/static/css/main.f6639643.css.map",
+    "main.2065ca8d.js.map": "/my-portfolio/static/js/main.2065ca8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.805709ac.css",
-    "static/js/main.988e9d91.js"
+    "static/css/main.f6639643.css",
+    "static/js/main.2065ca8d.js"
   ]
 }
