@@ -28,6 +28,21 @@
   width: 38px;
   height: 38px;
   margin-left: 0.4rem;
+  margin-bottom: 0.2rem;
+  animation: hand 1s ease-in-out infinite;
+}
+
+/* Wave the hand animantion */
+@keyframes hand {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 .home__subtitle {
   position: relative;

@@ -20,10 +20,13 @@ const About: FC = () => {
             <Info />
             <Fade direction="right" triggerOnce>
               <p className="about__description">
-                I am a full-stack software engineer that is curious and
-                competent. I see myself as a life-long learner, that is driven
-                to solve complex problems, programming is my choice of medium to
-                stimulate my mind.
+                Motivated software engineer seeking entry level employment with
+                a growing company. Graduated from Full-stack Academy boot-camp
+                at University of Illinois at Chicago. Freelance experience
+                includes developing web projects utilizing Python 3, Node JS,
+                React (JS, TS), HTML, CSS, WordPress, Databases and more.
+                Excited to contribute to a team, continue learning, and add
+                value to answer business needs with technology.
               </p>
             </Fade>
             <a download="" href={CV} className="button button--flex">

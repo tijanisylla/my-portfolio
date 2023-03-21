@@ -194,7 +194,9 @@ const Qualification: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="qualififaction__title">Freelancing</h3>
-                  <span className="qualification__subtitle">Remote</span>
+                  <span className="qualification__subtitle">
+                    Remote - Anywhere
+                  </span>
                   <div className="qualification__calender">
                     <i className="uil uil-calender"></i>
                     2022 - present

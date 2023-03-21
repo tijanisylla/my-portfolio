@@ -45,19 +45,30 @@
 
 /* Ative link */
 .nav__link:hover {
-  background-color: var(--title-color);
-  color: var(--body-color);
-  border-radius: 0.5rem;
-  cursor: pointer;
+  color: var(--title-color-dark);
+  animation: activeLink 0.5s ease-in-out;
+  border-bottom: 2px solid var(--title-color);
+  font-weight: var(--font-normal);
 }
 /* React scroll active link */
 .nav__item .active {
-  background-color: var(--title-color);
-  color: var(--body-color);
+  color: var(--title-color-dark);
+  border-bottom: 2px solid var(--title-color);
   font-weight: var(--font-normal);
-  border-radius: 0.5rem;
+  animation: activeLink 0.5s ease-in-out;
 }
 
+@keyframes activeLink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /* Change backgroud cheader */
 .scroll-header {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
