@@ -2,7 +2,7 @@ import { FC } from "react";
 import "./About.css";
 import AboutImg from "../assets/pc2.png";
 import Info from "./Info";
-import CV from "../assets/Resume.pdf";
+import CV from "../assets/My_Resume.pdf";
 import { Fade, Slide } from "react-awesome-reveal";
 
 const About: FC = () => {
@@ -11,7 +11,7 @@ const About: FC = () => {
       <Slide direction="left" triggerOnce>
         <h2 className="section__title">About Me</h2>
       </Slide>
-      <span className="section__subtitle">My introduction</span>
+      <span className="section__subtitle">My introduction </span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="about img" className="about__img" />{" "}
