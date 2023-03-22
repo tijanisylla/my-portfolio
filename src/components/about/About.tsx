@@ -2,7 +2,7 @@ import { FC } from "react";
 import "./About.css";
 import AboutImg from "../assets/pc2.png";
 import Info from "./Info";
-import CV from "../assets/Resume_Tijani_sylla.pdf";
+import CV from "../assets/Resume.pdf";
 import { Fade, Slide } from "react-awesome-reveal";
 
 const About: FC = () => {
