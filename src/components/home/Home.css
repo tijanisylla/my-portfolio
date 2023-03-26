@@ -1,5 +1,5 @@
 .home__container {
-  row-gap: 7rem;
+  row-gap: 1rem;
 }
 .home__content {
   grid-template-columns: 116px repeat(2, 1fr);
@@ -65,12 +65,12 @@
   margin-bottom: var(--mb-3);
 }
 .home__img {
-  background: url(../assets/syll3.png);
+  background: url(../assets/avatar.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   order: 1;
   justify-self: center;
   box-shadow: var(--box-shadow-img);
