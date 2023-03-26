@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.24d5ee63.css",
-    "main.js": "/my-portfolio/static/js/main.fc809680.js",
+    "main.js": "/my-portfolio/static/js/main.6811549d.js",
     "static/media/avatar.png": "/my-portfolio/static/media/avatar.0df030584a2b001d67fe.png",
     "static/media/Task.png": "/my-portfolio/static/media/Task.16175505fc7b467207df.png",
     "static/media/Fitness.png": "/my-portfolio/static/media/Fitness.c6d5fffcc281e6ba3125.png",
@@ -14,12 +14,13 @@
     "static/media/Strange.png": "/my-portfolio/static/media/Strange.17bdd942d8e363035dbc.png",
     "static/media/Draw.png": "/my-portfolio/static/media/Draw.7236de5f9165a41e47e8.png",
     "static/media/My_Resume.pdf": "/my-portfolio/static/media/My_Resume.f2b0b7b2d9421a6d83a9.pdf",
+    "static/media/openai-featured.jpg": "/my-portfolio/static/media/openai-featured.61ec66d76e1a0ff928f5.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.24d5ee63.css.map": "/my-portfolio/static/css/main.24d5ee63.css.map",
-    "main.fc809680.js.map": "/my-portfolio/static/js/main.fc809680.js.map"
+    "main.6811549d.js.map": "/my-portfolio/static/js/main.6811549d.js.map"
   },
   "entrypoints": [
     "static/css/main.24d5ee63.css",
-    "static/js/main.fc809680.js"
+    "static/js/main.6811549d.js"
   ]
 }
