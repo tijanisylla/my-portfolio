@@ -69,6 +69,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: var(--container-color);
   width: 400px;
   height: 400px;
   order: 1;

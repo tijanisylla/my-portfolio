@@ -5,9 +5,10 @@
 }
 
 .about__img {
-  width: 500px;
-  border-radius: 1.5rem;
   justify-self: center;
+  border-radius: 1.5rem;
+  width: 420px;
+  object-fit: cover;
 }
 
 .about__info {

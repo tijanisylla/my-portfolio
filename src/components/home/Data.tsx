@@ -59,7 +59,7 @@ const Data: FC = () => {
         </h1>
       </Rotate>
       <Fade triggerOnce>
-        <h3 className="home__subtitle">Fullstack Developer</h3>
+        <h3 className="home__subtitle">Full-stack Developer</h3>
       </Fade>
       <Fade delay={300} triggerOnce>
         <p className="home__description">

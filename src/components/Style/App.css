@@ -12,6 +12,7 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   --box-shadow-img: inset 9px 10px 10px 0.5px rgba(0, 0, 10, 0.21);
+
   /* ======== Font and typography ======== */
   --body-font: "Poppins", sans-serif;
 
@@ -75,7 +76,7 @@ body.dark .contact__form-input {
   background-color: hsl(var(--hue), var(--sat), 20%);
   color: var(--title-color);
 }
-body.dark label {
+body.dark .contact__form-tag {
   color: var(--title-color);
   background-color: hsl(var(--hue), var(--sat), 20%);
   border-top-right-radius: 0.3rem;

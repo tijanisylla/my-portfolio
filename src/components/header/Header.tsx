@@ -26,9 +26,18 @@ const Header: FC = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="/my-portfolio/" className="nav__logo">
-          Fullstack Developer
+        <a
+          href="https://www.linkedin.com/in/tijanisylla"
+          target="_blank"
+          rel="noreferrer"
+          className="nav__logo-img"
+        >
+          <img src={require("../assets/syll3.png")} alt="logo" />
         </a>
+        <a href="/my-portfolio/" className="nav__logo">
+          Tijani Sylla
+        </a>
+
         <div className={Toogle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             {listNavBar.map(({ id, item, icon, href }) => {

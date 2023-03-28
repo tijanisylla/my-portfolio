@@ -45,7 +45,7 @@ const BackEnd: React.FC = () => {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">PostgreSQL</h3>
-              <span className="skills__level">Advancer</span>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
           {/*  */}
