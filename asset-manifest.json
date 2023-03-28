@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.24d5ee63.css",
-    "main.js": "/my-portfolio/static/js/main.229b0665.js",
+    "main.css": "/my-portfolio/static/css/main.08676213.css",
+    "main.js": "/my-portfolio/static/js/main.c05edf86.js",
+    "static/media/avatar2.png": "/my-portfolio/static/media/avatar2.8281304283f70af75d47.png",
     "static/media/avatar.png": "/my-portfolio/static/media/avatar.0df030584a2b001d67fe.png",
     "static/media/Task.png": "/my-portfolio/static/media/Task.16175505fc7b467207df.png",
     "static/media/Fitness.png": "/my-portfolio/static/media/Fitness.c6d5fffcc281e6ba3125.png",
-    "static/media/pc2.png": "/my-portfolio/static/media/pc2.8b990229115b20ad1fbf.png",
     "static/media/art.png": "/my-portfolio/static/media/art.ca1a3cd615cfca67f08a.png",
     "static/media/animation.png": "/my-portfolio/static/media/animation.5fef71ba2e3ac760e992.png",
+    "static/media/syll3.png": "/my-portfolio/static/media/syll3.6ef700cbe571a7e8d515.png",
     "static/media/Userhub.png": "/my-portfolio/static/media/Userhub.12213a49bba202580e2a.png",
     "static/media/Snake1.png": "/my-portfolio/static/media/Snake1.1b51072108b2092dd606.png",
     "static/media/calculator.png": "/my-portfolio/static/media/calculator.369041ff8e18ed6d8082.png",
@@ -16,11 +17,11 @@
     "static/media/My_Resume.pdf": "/my-portfolio/static/media/My_Resume.c55cf426ef4afb043996.pdf",
     "static/media/openai-featured.jpg": "/my-portfolio/static/media/openai-featured.61ec66d76e1a0ff928f5.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.24d5ee63.css.map": "/my-portfolio/static/css/main.24d5ee63.css.map",
-    "main.229b0665.js.map": "/my-portfolio/static/js/main.229b0665.js.map"
+    "main.08676213.css.map": "/my-portfolio/static/css/main.08676213.css.map",
+    "main.c05edf86.js.map": "/my-portfolio/static/js/main.c05edf86.js.map"
   },
   "entrypoints": [
-    "static/css/main.24d5ee63.css",
-    "static/js/main.229b0665.js"
+    "static/css/main.08676213.css",
+    "static/js/main.c05edf86.js"
   ]
 }
