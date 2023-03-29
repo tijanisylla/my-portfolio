@@ -24,12 +24,13 @@
   padding: 1.5px;
   transition: 1s;
   animation: logo 3s ease-in-out;
-  cursor: pointer;
+  cursor: none;
 }
 .nav__logo-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  cursor: none;
 }
 
 @keyframes logo {
@@ -47,12 +48,14 @@
   background-color: var(--container-color-dark);
   border: 1px solid var(--title-color);
   animation: logo 3s ease-in-out infinite;
+  cursor: none;
 }
 
 .nav__logo,
 .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-meduim);
+  cursor: none;
 }
 
 .nav__list {
@@ -69,7 +72,7 @@
   font-weight: var(--font-meduim);
   transition: 0.8s;
   padding: 0.3rem;
-  cursor: pointer;
+  cursor: none;
 }
 .nav__icon,
 .nav__close,
@@ -146,7 +149,7 @@
     right: 1.3rem;
     bottom: 0.5rem;
     font-size: 1.5rem;
-    cursor: pointer;
+    cursor: none;
     color: var(--title-color);
   }
   .nav__close:hover {
@@ -154,7 +157,7 @@
   }
   .nav__toggle {
     font-size: 1.1rem;
-    cursor: pointer;
+    cursor: none;
   }
   .nav__icon,
   .nav__close,
@@ -200,7 +203,7 @@
 }
 .toggle-switch .switch {
   position: absolute;
-  cursor: pointer;
+  cursor: none;
   background-color: #b6b6b6;
   border-radius: 25px;
   top: 0;

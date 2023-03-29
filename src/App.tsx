@@ -11,6 +11,7 @@ import {
   Footer,
   ScrollUp,
   contextDarkMod,
+  Cursor,
 } from "./components";
 
 const App: React.FC = () => {
@@ -31,6 +32,7 @@ const App: React.FC = () => {
       <div className="App">
         <Header />
         <main className="main">
+          <Cursor />
           <Home />
           <About />
           <Skills />
