@@ -19,7 +19,7 @@
   object-fit: cover;
   transition: 0.3s;
 }
-
+/* Hover img */
 .projects__img:hover {
   transform: scale(1.1);
 }
