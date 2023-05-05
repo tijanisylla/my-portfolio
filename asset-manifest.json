@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.bcd98e31.css",
-    "main.js": "/my-portfolio/static/js/main.349b3e64.js",
+    "main.css": "/my-portfolio/static/css/main.1c37c42b.css",
+    "main.js": "/my-portfolio/static/js/main.bc92fd83.js",
     "static/media/movie.png": "/my-portfolio/static/media/movie.c602c532edcad50fc1a1.png",
     "static/media/avatar2.png": "/my-portfolio/static/media/avatar2.8281304283f70af75d47.png",
     "static/media/avatar.png": "/my-portfolio/static/media/avatar.0df030584a2b001d67fe.png",
@@ -11,6 +11,7 @@
     "static/media/animation.png": "/my-portfolio/static/media/animation.5fef71ba2e3ac760e992.png",
     "static/media/syll3.png": "/my-portfolio/static/media/syll3.6ef700cbe571a7e8d515.png",
     "static/media/Userhub.png": "/my-portfolio/static/media/Userhub.12213a49bba202580e2a.png",
+    "static/media/calculator2.png": "/my-portfolio/static/media/calculator2.7786c6396c753ac2019d.png",
     "static/media/Snake1.png": "/my-portfolio/static/media/Snake1.1b51072108b2092dd606.png",
     "static/media/calculator.png": "/my-portfolio/static/media/calculator.369041ff8e18ed6d8082.png",
     "static/media/Strange.png": "/my-portfolio/static/media/Strange.17bdd942d8e363035dbc.png",
@@ -18,11 +19,11 @@
     "static/media/My_Resume.pdf": "/my-portfolio/static/media/My_Resume.c55cf426ef4afb043996.pdf",
     "static/media/openai-featured.jpg": "/my-portfolio/static/media/openai-featured.61ec66d76e1a0ff928f5.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.bcd98e31.css.map": "/my-portfolio/static/css/main.bcd98e31.css.map",
-    "main.349b3e64.js.map": "/my-portfolio/static/js/main.349b3e64.js.map"
+    "main.1c37c42b.css.map": "/my-portfolio/static/css/main.1c37c42b.css.map",
+    "main.bc92fd83.js.map": "/my-portfolio/static/js/main.bc92fd83.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd98e31.css",
-    "static/js/main.349b3e64.js"
+    "static/css/main.1c37c42b.css",
+    "static/js/main.bc92fd83.js"
   ]
 }
