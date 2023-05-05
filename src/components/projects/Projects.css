@@ -4,8 +4,8 @@
 
 .projects__card {
   background-color: var(--container-color);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 1.5rem !important;
   padding: 1.5rem 2rem;
   margin-bottom: var(--mb-3);
   text-align: center;
@@ -16,6 +16,12 @@
   margin-bottom: var(--mb-1);
   width: 300px;
   height: 200px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.projects__img:hover {
+  transform: scale(1.1);
 }
 
 .projects__name {
