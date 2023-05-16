@@ -1,0 +1,63 @@
+/* Loading overlay */
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loading__container__box__circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-top-color: #000;
+  animation: spin 1.5s linear infinite;
+}
+.loading__container__text i {
+  font-size: var(--h1-font-size);
+  color: #fff;
+  animation: send 1.5s linear infinite;
+}
+
+@keyframes send {
+  to {
+    transform: rotate(360deg) !important;
+  }
+}
+
+.loading__container__text p {
+  font-size: var(--tiny-font-size);
+  font-weight: 700;
+  color: #fff;
+}
+.loading__container__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .loading__container__box__circle {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .loading__container__box__circle {
+    width: 80px;
+    height: 80px;
+  }
+}

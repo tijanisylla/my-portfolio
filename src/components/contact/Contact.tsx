@@ -2,6 +2,7 @@ import React, { useRef, useState, FormEvent } from "react";
 import { Slide } from "react-awesome-reveal";
 import "./Contact.css";
 import Success from "../success/Success";
+import Loading from "../loading/Loading";
 
 const Contact: React.FC = () => {
   const [sent, setSent] = useState<boolean>(false);
@@ -53,6 +54,7 @@ const Contact: React.FC = () => {
   return (
     <section className="contact section" id="contact">
       <Success sent={sent} setSent={setSent} />
+      {loading && <Loading />}
       <Slide direction="left" triggerOnce>
         <h2 className="section__title">Get in touch</h2>
       </Slide>
@@ -160,7 +162,7 @@ const Contact: React.FC = () => {
                 ></textarea>
               </div>
               <button type="submit" className="button button--flex">
-                {loading ? "Sending..." : " Send message"}
+                Send Message
                 {"  "}
                 <svg
                   className="button__icon"
