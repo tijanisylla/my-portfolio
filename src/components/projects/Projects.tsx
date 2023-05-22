@@ -4,7 +4,6 @@ import { Pagination } from "swiper";
 import { Slide } from "react-awesome-reveal";
 import "swiper/css";
 import "swiper/css/pagination";
-
 import "./Projects.css";
 import { data } from "../data/data";
 

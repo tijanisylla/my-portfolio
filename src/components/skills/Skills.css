@@ -47,6 +47,10 @@
   font-size: var(--tiny-font-size);
 }
 
+.skills__logo {
+  width: 25px;
+  height: 25px;
+}
 /* ======== BREAKPOINTS======== */
 
 /* Large device */

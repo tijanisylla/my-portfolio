@@ -13,11 +13,13 @@ const About: FC = () => {
       <span className="section__subtitle">My introduction </span>
 
       <div className="about__container container grid">
-        <img
-          src={require("../assets/avatar2.png")}
-          alt="about img"
-          className="about__img"
-        />{" "}
+        {/* A rotated div behind the image */}
+        <div className="about__bg">
+          <div className="about__bg-img">
+            <img src={require("../assets/avatar2.png")} alt="about img" />
+          </div>
+        </div>
+
         <Slide direction="right" triggerOnce>
           <div className="about__data">
             <Info />

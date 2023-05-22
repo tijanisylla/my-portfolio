@@ -2,15 +2,46 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 4rem;
+  position: relative;
 }
 
-.about__img {
+/* Roatated div behind the image */
+.about__bg {
+  /* overlap div  */
   justify-self: center;
-  border-radius: 1.5rem;
-  width: 420px;
+  top: -2rem;
+  left: -2rem;
+  width: 400px;
+  height: 400px;
+  background-color: var(--first-color);
+  border-radius: 1rem;
+  z-index: -1;
+  transform: rotate(5deg);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.about__bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+
+  transform: rotate(-5deg);
+}
+.about__bg-img img {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
-
+.about__data {
+  padding-left: 2rem;
+}
 .about__info {
   grid-template-columns: repeat(3, 140px);
   gap: 0.5rem;

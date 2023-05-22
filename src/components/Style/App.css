@@ -13,6 +13,7 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   --box-shadow-img: inset 9px 10px 10px 0.5px rgba(0, 0, 10, 0.21);
+  --first-color: hsl(var(--hue), var(--sat), 50%);
 
   /* ======== Font and typography ======== */
   --body-font: "Poppins", sans-serif;
@@ -59,6 +60,8 @@ body.dark {
   --body-color: hsl(var(--hue), var(--sat), 10%);
   --container-color: hsl(var(--hue), var(--sat), 20%);
   --border-cursor: hsl(var(--hue), var(--sat), 80%);
+  --box-shadow-img: inset 9px 10px 10px 0.5px rgba(244, 244, 247, 0.21);
+  --first-color: hsl(var(--hue), var(--sat), 50%);
 }
 
 /* Home Social Icons colors */
