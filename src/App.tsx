@@ -22,6 +22,7 @@ const App: React.FC = () => {
   };
 
   useEffect(() => {
+    // get the value from local storage and convert to boolean value
     const isDark: boolean = localStorage.getItem("isDarkMode") === "true";
     setIsDarkMode(isDark);
   }, [IsdarkMode]);

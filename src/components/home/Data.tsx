@@ -63,8 +63,8 @@ const Data: FC = () => {
       </Fade>
       <Fade delay={300} triggerOnce>
         <p className="home__description">
-          I'm creative Fullstack Developer based in Chicago,IL and I'm very
-          passionate and dedicated to my work.
+          Based in Chicago, IL. Intent on building beautiful applications with
+          excellent user experiences.
         </p>
       </Fade>
       <Fade delay={600} triggerOnce>
