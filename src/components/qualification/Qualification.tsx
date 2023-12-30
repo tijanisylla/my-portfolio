@@ -42,7 +42,7 @@ const Qualification: React.FC = () => {
             Experience
           </div>
         </div>
-        {/* END BUTTON */}
+        {/*! END BUTTON */}
 
         {/* Content 1 */}
         <Slide direction="left" triggerOnce>
