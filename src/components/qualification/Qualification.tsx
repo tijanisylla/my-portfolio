@@ -58,12 +58,9 @@ const Qualification: React.FC = () => {
               <div className="qualification__data">
                 <div>
                   <h3 className="qualififaction__title">UIC</h3>
-                  <span className="qualification__subtitle">
-                    Fullstack developement{" "}
-                  </span>
+                  <span className="qualification__subtitle">Chicago,IL </span>
                   <div className="qualification__calender">
-                    <i className="uil uil-calender"></i>
-                    2021 - 2021
+                    <i className="uil uil-calender"></i> 2021 - 2021
                   </div>
                 </div>
                 <div>
@@ -84,8 +81,7 @@ const Qualification: React.FC = () => {
                     High School Diploma - Mauritania
                   </span>
                   <div className="qualification__calender">
-                    <i className="uil uil-calender"></i>
-                    2009 - 2013
+                    <i className="uil uil-calender"></i> 2009 - 2013
                   </div>
                 </div>
               </div>
@@ -97,8 +93,7 @@ const Qualification: React.FC = () => {
                     Spanish course in Sevilla Acoje - Spain
                   </span>
                   <div className="qualification__calender">
-                    <i className="uil uil-calender"></i>
-                    2015 - 2016
+                    <i className="uil uil-calender"></i> 2015 - 2016
                   </div>
                 </div>
                 <div>
@@ -119,8 +114,7 @@ const Qualification: React.FC = () => {
                     I speak 6 Languages
                   </span>
                   <div className="qualification__calender">
-                    <i className="uil uil-calender"></i>
-                    2021 - present
+                    <i className="uil uil-calender"></i> 2021 - present
                   </div>
                 </div>
               </div>
@@ -143,8 +137,7 @@ const Qualification: React.FC = () => {
                     Hammacher - Chicago,IL
                   </span>
                   <div className="qualification__calender">
-                    <i className="uil uil-calender"></i>
-                    2021 - 2021
+                    <i className="uil uil-calender"></i> 2021 - 2021
                   </div>
                 </div>
                 <div>
@@ -163,8 +156,7 @@ const Qualification: React.FC = () => {
                   <h3 className="qualififaction__title">Fullstack Developer</h3>
                   <span className="qualification__subtitle">Elmhurst - IL</span>
                   <div className="qualification__calender">
-                    <i className="uil uil-calender"></i>
-                    2022 - 2022
+                    <i className="uil uil-calender"></i> 2022 - 2022
                   </div>
                 </div>
               </div>
@@ -176,8 +168,7 @@ const Qualification: React.FC = () => {
                     Twilight - Spain
                   </span>
                   <div className="qualification__calender">
-                    <i className="uil uil-calender"></i>
-                    2021 - 2021
+                    <i className="uil uil-calender"></i> 2021 - 2021
                   </div>
                 </div>
                 <div>
@@ -198,8 +189,7 @@ const Qualification: React.FC = () => {
                     Remote - Anywhere
                   </span>
                   <div className="qualification__calender">
-                    <i className="uil uil-calender"></i>
-                    2022 - present
+                    <i className="uil uil-calender"></i> 2022 - present
                   </div>
                 </div>
               </div>
