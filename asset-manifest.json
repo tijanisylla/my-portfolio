@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d9a14b0f.css",
-    "main.js": "/static/js/main.927d38f8.js",
+    "main.js": "/static/js/main.219ee6bf.js",
     "static/media/movie.png": "/static/media/movie.c602c532edcad50fc1a1.png",
     "static/media/avatar2.png": "/static/media/avatar2.8281304283f70af75d47.png",
     "static/media/avatar.png": "/static/media/avatar.0df030584a2b001d67fe.png",
@@ -15,15 +15,15 @@
     "static/media/Snake1.png": "/static/media/Snake1.1b51072108b2092dd606.png",
     "static/media/calculator.png": "/static/media/calculator.369041ff8e18ed6d8082.png",
     "static/media/Strange.png": "/static/media/Strange.17bdd942d8e363035dbc.png",
+    "static/media/Tijani_Sylla_resume2.pdf": "/static/media/Tijani_Sylla_resume2.25ba784664580401305e.pdf",
     "static/media/Draw.png": "/static/media/Draw.7236de5f9165a41e47e8.png",
-    "static/media/My_Resume.pdf": "/static/media/My_Resume.c55cf426ef4afb043996.pdf",
     "static/media/openai-featured.jpg": "/static/media/openai-featured.61ec66d76e1a0ff928f5.jpg",
     "index.html": "/index.html",
     "main.d9a14b0f.css.map": "/static/css/main.d9a14b0f.css.map",
-    "main.927d38f8.js.map": "/static/js/main.927d38f8.js.map"
+    "main.219ee6bf.js.map": "/static/js/main.219ee6bf.js.map"
   },
   "entrypoints": [
     "static/css/main.d9a14b0f.css",
-    "static/js/main.927d38f8.js"
+    "static/js/main.219ee6bf.js"
   ]
 }
