@@ -17,7 +17,7 @@ const Qualification: React.FC = () => {
         <span className="section__subtitle">My personal journey</span>
       </Slide>
       <div className="qualification__container container">
-        {/* START BUTTON */}
+        {/*! START BUTTON */}
         <div className="qualification__tabs">
           <div
             className={
