@@ -4,6 +4,7 @@ import Social from "./Social";
 import Data from "./Data";
 import ScrollDowm from "./ScrollDowm";
 import contextDarkMod from "../context/contextDarkMod";
+// Home page
 const Home: FC = () => {
   const { IsdarkMode } = useContext(contextDarkMod);
   // Dark mode for the body
