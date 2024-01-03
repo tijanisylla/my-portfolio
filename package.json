@@ -27,8 +27,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "dev:js": "node ./backend/app.js",
-    "dev:ts": "nodemon ./backend/app.ts",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

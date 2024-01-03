@@ -2,8 +2,8 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-scroll";
 const Footer: React.FC = () => {
-  const yeareDate: Date = new Date();
-  const thisYear: number = yeareDate.getFullYear();
+  const yeareDate: Date = new Date() as Date;
+  const thisYear = yeareDate.getFullYear() as number;
   return (
     <footer className="footer">
       <div className="footer__container container">
