@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.4010b3dd.css",
-    "main.js": "/my-portfolio/static/js/main.6691714f.js",
-    "static/media/movie.png": "/my-portfolio/static/media/movie.c602c532edcad50fc1a1.png",
-    "static/media/avatar2.png": "/my-portfolio/static/media/avatar2.8281304283f70af75d47.png",
-    "static/media/avatar.png": "/my-portfolio/static/media/avatar.0df030584a2b001d67fe.png",
-    "static/media/Task.png": "/my-portfolio/static/media/Task.16175505fc7b467207df.png",
-    "static/media/Fitness.png": "/my-portfolio/static/media/Fitness.c6d5fffcc281e6ba3125.png",
-    "static/media/art.png": "/my-portfolio/static/media/art.ca1a3cd615cfca67f08a.png",
-    "static/media/animation.png": "/my-portfolio/static/media/animation.5fef71ba2e3ac760e992.png",
-    "static/media/syll3.png": "/my-portfolio/static/media/syll3.6ef700cbe571a7e8d515.png",
-    "static/media/Userhub.png": "/my-portfolio/static/media/Userhub.12213a49bba202580e2a.png",
-    "static/media/calculator2.png": "/my-portfolio/static/media/calculator2.7786c6396c753ac2019d.png",
-    "static/media/Snake1.png": "/my-portfolio/static/media/Snake1.1b51072108b2092dd606.png",
-    "static/media/calculator.png": "/my-portfolio/static/media/calculator.369041ff8e18ed6d8082.png",
-    "static/media/Strange.png": "/my-portfolio/static/media/Strange.17bdd942d8e363035dbc.png",
-    "static/media/Tijani_Sylla_resume2.pdf": "/my-portfolio/static/media/Tijani_Sylla_resume2.25ba784664580401305e.pdf",
-    "static/media/Draw.png": "/my-portfolio/static/media/Draw.7236de5f9165a41e47e8.png",
-    "static/media/openai-featured.jpg": "/my-portfolio/static/media/openai-featured.61ec66d76e1a0ff928f5.jpg",
-    "index.html": "/my-portfolio/index.html",
-    "main.4010b3dd.css.map": "/my-portfolio/static/css/main.4010b3dd.css.map",
-    "main.6691714f.js.map": "/my-portfolio/static/js/main.6691714f.js.map"
+    "main.css": "/static/css/main.17cf02e8.css",
+    "main.js": "/static/js/main.e0e53df0.js",
+    "static/media/movie.png": "/static/media/movie.c602c532edcad50fc1a1.png",
+    "static/media/avatar2.png": "/static/media/avatar2.8281304283f70af75d47.png",
+    "static/media/avatar.png": "/static/media/avatar.0df030584a2b001d67fe.png",
+    "static/media/Task.png": "/static/media/Task.16175505fc7b467207df.png",
+    "static/media/Fitness.png": "/static/media/Fitness.c6d5fffcc281e6ba3125.png",
+    "static/media/art.png": "/static/media/art.ca1a3cd615cfca67f08a.png",
+    "static/media/animation.png": "/static/media/animation.5fef71ba2e3ac760e992.png",
+    "static/media/syll3.png": "/static/media/syll3.6ef700cbe571a7e8d515.png",
+    "static/media/Userhub.png": "/static/media/Userhub.12213a49bba202580e2a.png",
+    "static/media/calculator2.png": "/static/media/calculator2.7786c6396c753ac2019d.png",
+    "static/media/Snake1.png": "/static/media/Snake1.1b51072108b2092dd606.png",
+    "static/media/calculator.png": "/static/media/calculator.369041ff8e18ed6d8082.png",
+    "static/media/Strange.png": "/static/media/Strange.17bdd942d8e363035dbc.png",
+    "static/media/Tijani_Sylla_resume2.pdf": "/static/media/Tijani_Sylla_resume2.25ba784664580401305e.pdf",
+    "static/media/Draw.png": "/static/media/Draw.7236de5f9165a41e47e8.png",
+    "static/media/openai-featured.jpg": "/static/media/openai-featured.61ec66d76e1a0ff928f5.jpg",
+    "index.html": "/index.html",
+    "main.17cf02e8.css.map": "/static/css/main.17cf02e8.css.map",
+    "main.e0e53df0.js.map": "/static/js/main.e0e53df0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4010b3dd.css",
-    "static/js/main.6691714f.js"
+    "static/css/main.17cf02e8.css",
+    "static/js/main.e0e53df0.js"
   ]
 }
