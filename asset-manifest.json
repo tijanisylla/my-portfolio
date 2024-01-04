@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.17cf02e8.css",
-    "main.js": "/static/js/main.e0e53df0.js",
+    "main.css": "/static/css/main.5e94af4a.css",
+    "main.js": "/static/js/main.6adeefcc.js",
     "static/media/movie.png": "/static/media/movie.c602c532edcad50fc1a1.png",
     "static/media/avatar2.png": "/static/media/avatar2.8281304283f70af75d47.png",
     "static/media/avatar.png": "/static/media/avatar.0df030584a2b001d67fe.png",
@@ -19,11 +19,11 @@
     "static/media/Draw.png": "/static/media/Draw.7236de5f9165a41e47e8.png",
     "static/media/openai-featured.jpg": "/static/media/openai-featured.61ec66d76e1a0ff928f5.jpg",
     "index.html": "/index.html",
-    "main.17cf02e8.css.map": "/static/css/main.17cf02e8.css.map",
-    "main.e0e53df0.js.map": "/static/js/main.e0e53df0.js.map"
+    "main.5e94af4a.css.map": "/static/css/main.5e94af4a.css.map",
+    "main.6adeefcc.js.map": "/static/js/main.6adeefcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.17cf02e8.css",
-    "static/js/main.e0e53df0.js"
+    "static/css/main.5e94af4a.css",
+    "static/js/main.6adeefcc.js"
   ]
 }
