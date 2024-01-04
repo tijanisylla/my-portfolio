@@ -3,7 +3,7 @@ import "./Footer.css";
 import { Link } from "react-scroll";
 const Footer: React.FC = () => {
   const yeareDate: Date = new Date() as Date;
-  const thisYear = yeareDate.getFullYear() as number;
+  const currentYear = yeareDate.getFullYear() as number;
   return (
     <footer className="footer">
       <div className="footer__container container">
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
         <span className="footer__copy">
-          &#169; Copyright {"  "} {thisYear}. {"  "}All rigths reserved
+          &#169; Copyright {"  "} {currentYear}. {"  "}All rigths reserved
         </span>
       </div>
     </footer>
