@@ -57,9 +57,14 @@ const Qualification: React.FC = () => {
               {/* GRP 1 */}
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualififaction__title">UIC</h3>
-                  <span className="qualification__subtitle">Chicago,IL </span>
+                  <h3 className="qualififaction__title">
+                    University of Illinois at Chicago
+                  </h3>
+                  <span className="qualification__subtitle">
+                    Fullstack development{" "}
+                  </span>
                   <div className="qualification__calender">
+                    <i className="uil uil-map-marker"></i> Chicago,IL <br />
                     <i className="uil uil-calender"></i> 2021 - 2021
                   </div>
                 </div>
@@ -78,9 +83,12 @@ const Qualification: React.FC = () => {
                 <div>
                   <h3 className="qualififaction__title">Lycée des nations</h3>
                   <span className="qualification__subtitle">
-                    High School Diploma - Mauritania
+                    High School Diploma
                   </span>
                   <div className="qualification__calender">
+                    {" "}
+                    <i className="uil uil-map-marker"></i> Mauritania, NKTT{" "}
+                    <br />
                     <i className="uil uil-calender"></i> 2009 - 2013
                   </div>
                 </div>
@@ -89,10 +97,10 @@ const Qualification: React.FC = () => {
               <div className="qualification__data">
                 <div>
                   <h3 className="qualififaction__title">Spanish</h3>
-                  <span className="qualification__subtitle">
-                    Spanish course in Sevilla Acoje - Spain
-                  </span>
+                  <span className="qualification__subtitle">Sevilla Acoje</span>
                   <div className="qualification__calender">
+                    {" "}
+                    <i className="uil uil-map-marker"></i>Spain, Seville <br />
                     <i className="uil uil-calender"></i> 2015 - 2016
                   </div>
                 </div>
@@ -114,6 +122,7 @@ const Qualification: React.FC = () => {
                     I speak 6 Languages
                   </span>
                   <div className="qualification__calender">
+                    <i className="uil uil-map-marker"></i> Globe <br />
                     <i className="uil uil-calender"></i> 2021 - present
                   </div>
                 </div>
@@ -132,12 +141,11 @@ const Qualification: React.FC = () => {
               {/* GRP 5 */}
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualififaction__title">Customer Service</h3>
-                  <span className="qualification__subtitle">
-                    Hammacher - Chicago,IL
-                  </span>
+                  <h3 className="qualififaction__title">Software Engineer</h3>
+                  <span className="qualification__subtitle">Multiple,Inc</span>
                   <div className="qualification__calender">
-                    <i className="uil uil-calender"></i> 2021 - 2021
+                    <i className="uil uil-map-marker"> </i>Chicago, IL <br />
+                    <i className="uil uil-calender"></i> 2023 - 2024
                   </div>
                 </div>
                 <div>
@@ -153,9 +161,12 @@ const Qualification: React.FC = () => {
                   <span className="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 className="qualififaction__title">Fullstack Developer</h3>
-                  <span className="qualification__subtitle">Elmhurst - IL</span>
+                  <h3 className="qualififaction__title">Software Engineer</h3>
+                  <span className="qualification__subtitle">
+                    FoodMix Marketing
+                  </span>
                   <div className="qualification__calender">
+                    <i className="uil uil-map-marker"> </i>Elmhurst, IL <br />
                     <i className="uil uil-calender"></i> 2022 - 2022
                   </div>
                 </div>
@@ -164,10 +175,10 @@ const Qualification: React.FC = () => {
               <div className="qualification__data">
                 <div>
                   <h3 className="qualififaction__title">Customer Service</h3>
-                  <span className="qualification__subtitle">
-                    Twilight - Spain
-                  </span>
+                  <span className="qualification__subtitle">Twilight</span>
                   <div className="qualification__calender">
+                    <i className="uil uil-map-marker"> </i>Spain, Mallorca
+                    <br />
                     <i className="uil uil-calender"></i> 2021 - 2021
                   </div>
                 </div>
@@ -184,11 +195,11 @@ const Qualification: React.FC = () => {
                   <span className="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 className="qualififaction__title">Freelancing</h3>
-                  <span className="qualification__subtitle">
-                    Remote - Anywhere
-                  </span>
+                  <h3 className="qualififaction__title">Software Engineer</h3>
+                  <span className="qualification__subtitle"> Freelance</span>
                   <div className="qualification__calender">
+                    <i className="uil uil-map-marker"> </i> Remote - Anywhere
+                    <br />
                     <i className="uil uil-calender"></i> 2022 - present
                   </div>
                 </div>
