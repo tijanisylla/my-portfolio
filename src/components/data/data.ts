@@ -12,6 +12,7 @@ import Task from "../assets/Task.png";
 import AI from "../assets/openai-featured.jpg";
 import Movie from "../assets/movie.png";
 import calculator2 from "../assets/calculator2.png";
+import RFID from "../assets/rfid.png";
 
 export const data: TypeMyData[] = [
   {
@@ -100,6 +101,13 @@ export const data: TypeMyData[] = [
     title: "Tasks Progress",
     img_url: `${Task}`,
     link: "https://main.d18m2yn7ohwgrq.amplifyapp.com/",
+    gitHub: "https://github.com/tijanisylla",
+  },
+  {
+    id: 13,
+    title: "RFID",
+    img_url: `${RFID}`,
+    link: "https://www.plusrfid.com/",
     gitHub: "https://github.com/tijanisylla",
   },
 ];

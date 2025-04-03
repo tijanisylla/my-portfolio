@@ -14,7 +14,9 @@ const Projects: React.FC = () => {
         <h2 className="section__title">Projects</h2>
       </Slide>
       <Slide direction="right" triggerOnce>
-        <span className="section__subtitle">Check my projects</span>
+        <span className="section__subtitle">
+          Check my projects & the projects that I worked on
+        </span>
       </Slide>
       <Slide direction="left" triggerOnce>
         <Swiper

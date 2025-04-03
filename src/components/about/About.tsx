@@ -1,7 +1,7 @@
 import { FC } from "react";
 import "./About.css";
 import Info from "./Info";
-import CV from "../assets/Tijani_Sylla_resume2.pdf";
+import CV from "../assets/Tijani_Sylla_-_S_O_F_T_WA_R_E__E_N_G_I_N_E_E_R (1).pdf";
 import { Fade, Slide } from "react-awesome-reveal";
 
 const About: FC = () => {
@@ -25,13 +25,14 @@ const About: FC = () => {
             <Info />
             <Fade direction="right" triggerOnce>
               <p className="about__description">
-                Motivated software engineer seeking entry level employment with
-                a growing company. Graduated from Full-stack Academy boot-camp
-                at University of Illinois at Chicago. Freelance experience
-                includes developing web projects utilizing Python 3, Node JS,
-                React (JS, TS), HTML, CSS, WordPress, Databases and more.
-                Excited to contribute to a team, continue learning, and add
-                value to answer business needs with technology.
+                Motivated Full-Stack Developer seeking a full-time opportunity
+                with a dynamic and innovative company. A graduate of Fullstack
+                Academy at the University of Illinois at Chicago, with hands-on
+                experience in modern web technologies. Skilled in Python 3,
+                Node.js, TypeScript, PostgreSQL, MySQL, React (JS/TS), HTML5,
+                CSS3, WordPress, PHP, and database management. Passionate about
+                building scalable, high-performance applications and delivering
+                clean, efficient code.
               </p>
             </Fade>
             <a download="" href={CV} className="button button--flex">
