@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e94af4a.css",
-    "main.js": "/static/js/main.6adeefcc.js",
+    "main.css": "/static/css/main.434ee633.css",
+    "main.js": "/static/js/main.7984d135.js",
     "static/media/movie.png": "/static/media/movie.c602c532edcad50fc1a1.png",
+    "static/media/avatar1.png": "/static/media/avatar1.065d80c492ca17c0cd66.png",
     "static/media/avatar2.png": "/static/media/avatar2.8281304283f70af75d47.png",
-    "static/media/avatar.png": "/static/media/avatar.0df030584a2b001d67fe.png",
     "static/media/Task.png": "/static/media/Task.16175505fc7b467207df.png",
+    "static/media/rfid.png": "/static/media/rfid.dc6f3b1b30ad86b6536a.png",
     "static/media/Fitness.png": "/static/media/Fitness.c6d5fffcc281e6ba3125.png",
     "static/media/art.png": "/static/media/art.ca1a3cd615cfca67f08a.png",
     "static/media/animation.png": "/static/media/animation.5fef71ba2e3ac760e992.png",
@@ -15,15 +16,15 @@
     "static/media/Snake1.png": "/static/media/Snake1.1b51072108b2092dd606.png",
     "static/media/calculator.png": "/static/media/calculator.369041ff8e18ed6d8082.png",
     "static/media/Strange.png": "/static/media/Strange.17bdd942d8e363035dbc.png",
-    "static/media/Tijani_Sylla_resume2.pdf": "/static/media/Tijani_Sylla_resume2.25ba784664580401305e.pdf",
+    "static/media/Tijani_Sylla_-_S_O_F_T_WA_R_E__E_N_G_I_N_E_E_R (1).pdf": "/static/media/Tijani_Sylla_-_S_O_F_T_WA_R_E__E_N_G_I_N_E_E_R (1).641bed07a43521863aa3.pdf",
     "static/media/Draw.png": "/static/media/Draw.7236de5f9165a41e47e8.png",
     "static/media/openai-featured.jpg": "/static/media/openai-featured.61ec66d76e1a0ff928f5.jpg",
     "index.html": "/index.html",
-    "main.5e94af4a.css.map": "/static/css/main.5e94af4a.css.map",
-    "main.6adeefcc.js.map": "/static/js/main.6adeefcc.js.map"
+    "main.434ee633.css.map": "/static/css/main.434ee633.css.map",
+    "main.7984d135.js.map": "/static/js/main.7984d135.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e94af4a.css",
-    "static/js/main.6adeefcc.js"
+    "static/css/main.434ee633.css",
+    "static/js/main.7984d135.js"
   ]
 }
